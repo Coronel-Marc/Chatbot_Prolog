@@ -1,0 +1,71 @@
+questao('ethernet',
+        'Ethernet é uma família de tecnologias de rede de computadores com fio comumente usadas em redes de área local, redes de área metropolitana e redes de longa distância.').
+
+questao('endereçamento ethernet e seus serviços',
+        'Em um nível de abstração mais alto, pode-se dizer que a tecnologia ethernet oferece a
+comunicação entre equipamentos de uma mesma rede física sem o uso de conexões e com serviços:
+- Unicast, ou seja, um quadro ethernet vai para um destino único. Analogamente, pode-se tomar como
+exemplo o envio de um e-mail para uma única pessoa;
+o e-mail é direcionado;
+- Multicast, em que um quadro vai para múltiplos destinos. Analogamente, pode-se tomar como
+exemplo o envio de um e-mail para um grupo de pessoas;
+portanto, um e-mail é distribuído para um grupo de pessoas;
+- Broadcast, em que um quadro vai para todos os destinos, ou seja, o quadro é enviado para todas
+as máquinas de uma mesma rede.').
+
+questao('protocolo MAC',
+        'O protocolo MAC evita colisões – quando dois ou mais terminais enviam dados ao mesmo tempo, levando a uma falha nas comunicações. Uma colisão pode ser muito cara e inconveniente para as empresas que dependem da transmissão contínua de dados.').
+
+questao('gigabit ethernet',
+        'A Gigabit Ethernet é uma conexão com suporte para velocidades mais rápidas de dados. O outro nome que recebe é 10/100/1000, pois suporta conexões nominais de até 1000Mbps ou 1Gbps.').
+
+questao('metro ethernet',
+        'Ethernet MAN ou metro Ethernet é uma rede metropolitana baseada em padrões Ethernet. É comumente usado para conectar assinantes a uma rede de serviço maior ou para acesso à Internet.').
+
+questao('protocolo TCP/IP',
+	'Endereço usado pelas máquinas para se comunicarem umas com as outras. O processo para
+que uma mensagem ou informação seja enviada de uma máquina para outra passa por vários protocolos
+de comunicação e, geralmente, todos os protocolos usados pertencem à suíte TCP/IP.').
+
+questao('protocolos que constituem o TCP',
+	'Aplicação, apresentação, sessão, transporte, redes, enlace e física.').
+
+questao('IGRP',
+	'Protocolo proprietário da Cisco. Foi projetado com o objetivo de trazer melhorias
+para o protocolo RIP. Conforme a rede foi crescendo, o protocolo RIP passou a ficar limitado,
+de modo que o protocolo IGRP solucionou alguns problemas relacionados a rotas em redes grandes e
+heterogêneas.').
+
+questao('EIGRP',
+	'Outro protocolo desenvolvido pela Cisco. É considerado um protocolo híbrido combinando
+as melhores características dos protocolos para a definição de rotas com base em vetores de
+distância e em estado de ligação.').
+
+questao('SMTP',
+	'É um dos serviços prestados pela camada de aplicação. Os componentes básicos envolvidos
+na troca de mensagens através do SMTP são: Agente usuário e Caixa postal. O SMTP utiliza os
+serviços da camada de transporte através do protocolo TCP para transferir mensagens.
+Apresenta uma estrutura organizada para a transmissão dos dados.').
+
+questao('telnet',
+        'O Telnet é um protocolo que permite iniciar uma sessão e utilizar um computador remoto como se estivesse ligado directamente ao mesmo numa rede local. O sistema (normalmente um PC) que o utilizador tem fisicamente à frente é um cliente de Telnet.').
+
+questao('FTP',
+        'FTP (File Transfer Protocol) é um protocolo de rede para a transmissão de arquivos entre computadores. Dentro do conjunto TCP/IP (Transmission Control Protocol/Internet Protocol), ele é um protocolo da camada de aplicação para o download e upload de arquivos em conexões do tipo cliente/servidor.').
+
+questao('HTTP',
+        'O HTTP (Hypertext Transfer Protocol) é um protocolo projetado para a transferência de conteúdo na Web. O HTTP é um protocolo simples que utiliza os serviços de protocolo TCP para executar sua função de transferência de conteúdo. Por isso, o HTTP é um protocolo de transferência de conteúdo altamente confiável.').
+
+questao('camada de rede',
+	'Fornecer os serviços de transferência de dados fim a fim sobre uma rede,
+independentemente das características das subredes físicas. Está mais relacionada à topologia de
+rede e tem como uma de suas principais funções resolver problemas de roteamento em rede.').
+
+questao('IPv4',
+        'IPv4 (Internet Protocol versão 4) é o formato de endereço padrão que permite que todos os computadores na internet se comuniquem entre si. O IPv4 é escrito como uma sequência de dígitos de 32 bits e um endereço IPv4 é composto por quatro números, cada um entre 0 e 255, separados por pontos.').
+
+questao('ICMP',
+        'O ICMP (Internet Control Message Protocol), ou protocolo de mensagem de controle da Internet, é utilizado pelos hosts e roteadores da rede e servem para reportar informações da camada de rede entre eles, sendo também utilizado para realizar testes na rede.').
+
+questao('finalizar',
+        'Até a próxima!').
